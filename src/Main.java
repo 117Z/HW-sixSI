@@ -41,21 +41,7 @@ public class Main {
         System.out.print(fullName5.substring(indexFirstSpace + 1, indexFirstSpace + 2).toUpperCase() + fullName5.substring(indexFirstSpace + 2, indexLastSpace) + " ");
         System.out.println(fullName5.substring(indexLastSpace + 1, indexLastSpace + 2).toUpperCase() + fullName5.substring(indexLastSpace + 2));
 
-        //Задание №7 - собрать одну строку из двух, в заданной последовательности значений
-        String one="135";
-        String two="246";
-        System.out.println(one.charAt(0));
-        System.out.println(two.charAt(0));
-        StringBuilder oneTwo=new StringBuilder(one.charAt(0)+two.charAt(0));
-        //StringBuilder oneTwo=new StringBui
-        // lder(one+two);
-        //oneTwo.replace(1,1,"h");
-        System.out.println(oneTwo);
-
-
     }
-
-
 }
 
 
